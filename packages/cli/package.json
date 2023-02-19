@@ -1,0 +1,20 @@
+{
+  "name": "@npm-workspace-test/cli",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cli": "my-demo-cli"
+  },
+  "bin": {
+    "my-demo-cli": "bin/cli.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@npm-workspace-test/a": "^1.0.0",
+    "@npm-workspace-test/b": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
